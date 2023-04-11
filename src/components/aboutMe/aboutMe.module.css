@@ -1,0 +1,45 @@
+.textColor{
+    color:var(--text-color);
+    font-size:1.5rem;
+    line-height: 2;
+}
+span.textColor{
+    font-weight: bold;
+    line-height:1;
+}
+.mainTitle{
+    color:var(--primary-color);
+    font-size: 4rem;
+    margin:.5rem 0;
+}
+.mainButton{
+    background: linear-gradient(-45deg,var(--primary-color), var(--secondary-color));
+    color: #FFF;
+    border: none;
+    padding:.4rem 1rem;
+    font-size: 1.4rem;
+}
+@media screen and (width< 480px)
+{
+    .textColor {
+        font-size: 1rem;text-align: justify;
+    } 
+    .mainTitle{
+        font-size: 1.9rem;
+    }
+    .mainButton{
+        font-size: 1rem;
+    }
+}
+@media screen and (width< 992px)
+{
+    .textColor {
+        font-size: 1.4rem;text-align: justify;
+    } 
+    .mainTitle{
+        font-size: 2.5rem;
+    }
+    .mainButton{
+        font-size: 1.5rem;
+    }
+}

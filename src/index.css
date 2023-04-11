@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+:root{
+  --primary-color:#8490ff;
+  --secondary-color:#62bdfc;
+  --oposite-color:#ffee52 ;
+  --text-color:#666 ;
+  --white-color:#fefefe;
+}
+img{max-width:100%;height:auto;}

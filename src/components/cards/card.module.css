@@ -1,0 +1,25 @@
+.cardWrapper{
+    width:31%;
+    padding: 1rem;
+    background: #fff;
+    filter: drop-shadow(0 0 0.3rem #ccc);
+    margin:1rem auto;
+}
+.cardWrapper img,.cardWrapper{border-radius: .4rem;}
+.cardWrapper h4{
+    color: var(--primary-color);
+    font-size: 1.4rem ;
+}
+.cardWrapper p{
+    color: var(--text-color);
+    font-size: 1.1rem ;
+}
+.deactive{
+opacity: 0.3;
+}
+@media screen and (width<576px){
+    .cardWrapper{width:100%;}
+}
+@media screen and (576px<width<768px){
+    .cardWrapper{width:45%;}
+}
